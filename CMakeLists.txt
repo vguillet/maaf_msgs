@@ -26,6 +26,9 @@ if(BUILD_TESTING)
 
   rosidl_generate_interfaces(${PROJECT_NAME}
       "msg/TeamCommStamped.msg"
+      "msg/Bid.msg"
+      "msg/Allocation.msg"
+
       DEPENDENCIES geometry_msgs
   )
 
